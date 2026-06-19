@@ -29,13 +29,13 @@ class LogAnalyzer:
                     if match:
                         self.parsed_data.append(match.groupdict())
                     else:
-                        logger.warning(f"Błąd w linii {line_num}: {line[:30]}")
+                        logger.warning(f"Error in line {line_num}: {line[:30]}")
                         
             return self.parsed_data
         
         except Exception as e:
 
-            logger.error(f"Błąd krytyczny: {e}")
+            logger.error(f"Critical error: {e}")
             return []
         
     def count_by_status(self, status_code: str) -> int:
