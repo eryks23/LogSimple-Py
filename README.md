@@ -172,4 +172,3 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 ## Contact / Author
 - GitHub: [@eryks23](https://github.com/eryks23)
 - Repository: [github.com/eryks23/LogSimple-Py](https://github.com/eryks23/LogSimple-Py)
-- Maintainer name / contact email: [DO UZUPEŁNIENIA: pełne imię i nazwisko oraz adres kontaktowy]
